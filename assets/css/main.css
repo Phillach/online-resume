@@ -407,9 +407,8 @@ h1, h3 {
   padding: 0; }
 
 .btn {
-  position: relative;
-  font-family: "Space Mono", monospace;
-  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  color: white;
   font-size: 24px;
   background: #333B50;
   padding: 10px 20px 10px 20px;
@@ -421,7 +420,8 @@ h1, h3 {
 
 .btn:hover {
   background: #01FF70;
-  text-decoration: none; }
+  text-decoration: none;
+  font-family: "Space Mono", monospace; }
 
 .landing-page {
   height: 1200px;
