@@ -2747,44 +2747,41 @@ span {
   padding-bottom: 10px; }
 
 .real-wrapper {
-  background-color: #333B50;
+  background: url(../img/code_bg_final.jpeg) fixed;
+    background-size: cover;
+    background-position: center;
   height: auto;
   width: auto;
+  padding: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.real-container {
-  position: relative;
-  width: 80%;
-  height: auto; }
-  .real-container h1 {
-    font-family: "Roboto Mono", monospace;
-    color: white;
-    margin-bottom: 60px;
-    font-size: 50px; }
+  flex-direction: row; }
 
 .real-title-container {
-  text-align: center;
-  margin-top: 50px; }
+  text-align: left;
+  width: auto;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-size: 42px;
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap; }
 
 .real-content-container {
   position: relative;
   height: auto;
-  width: 80%;
-  left: 50%;
-  margin-left: -40%;
+  width: auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px; }
+  margin-left: 30px;
+  flex-wrap: wrap; }
   .real-content-container img {
     width: 200px;
     height: 200px;
     margin: 10px;
     animation: wobble 4s ease-in-out 0s infinite;
     box-shadow: 2px 2px 10px 1px #001F3F;
-    border-radius: 15px; }
+    border-radius: 15px;
+    margin-left: 50px; }
 
 /*# sourceMappingURL=main.css.map */
